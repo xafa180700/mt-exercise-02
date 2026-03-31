@@ -12,6 +12,7 @@ from itertools import chain
 from nltk.tokenize import sent_tokenize
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 def parse_args():
